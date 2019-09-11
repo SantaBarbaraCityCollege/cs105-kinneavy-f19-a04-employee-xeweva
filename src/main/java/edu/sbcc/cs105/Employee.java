@@ -6,7 +6,7 @@
  * Statement of code ownership: I hereby state that I have written all of this
  * code and I have not copied this code from any other person or source.
  * 
- * @author Max Dokukin
+ * @author Max_Dokukin
  */
 package edu.sbcc.cs105;
 
@@ -34,7 +34,6 @@ public class Employee {
     public double getSalary() {
         return salary;
     }
-
 
     public void raiseSalary(double byPercent) {
         salary *= (1 + byPercent / 100);
