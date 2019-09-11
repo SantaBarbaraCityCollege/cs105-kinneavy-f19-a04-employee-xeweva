@@ -26,9 +26,13 @@ public class Program {
      *            command line values. Not used in this example.
      */
     public static void main(String[] args) {
-        Employee e = new Employee("John", 100);
+        Employee e = new Employee("John", 100000);
 
         System.out.println(e.getName() + "'s salary is : '" + e.getSalary());
+
+        e.raiseSalary(25);
+
+        System.out.println(e.getName() + "'s salary after year : '" + e.getSalary());
 
     }
 }
