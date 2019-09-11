@@ -30,7 +30,7 @@ public class Program {
 
         System.out.println(e.getName() + "'s salary is : '" + e.getSalary());
 
-        e.raiseSalary(25);
+        e.raiseSalary(30);
 
         System.out.println(e.getName() + "'s salary after year : '" + e.getSalary());
 
