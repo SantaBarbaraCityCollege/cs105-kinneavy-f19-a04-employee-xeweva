@@ -13,7 +13,7 @@ package edu.sbcc.cs105;
 /**
  * This class provides first level testing the Employee object.
  *
- *///
+ *//////
 public class Program {
 
     /**
