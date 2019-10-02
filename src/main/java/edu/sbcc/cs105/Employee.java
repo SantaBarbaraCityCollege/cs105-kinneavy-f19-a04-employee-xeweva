@@ -27,15 +27,27 @@ public class Employee {
     // Accessors that are obvious and have no side effects don't have to have
     // any documentation unless you are creating a library to be used by other
     // people.
+
+    /**
+     * accessor method
+     * @return employee name
+     */
     public String getName() {
 		return name;
     }
 
+    /**
+     * accessor method
+     * @return employee salary
+     */
     public double getSalary() {
         return salary;
-        
     }
 
+    /**
+     * raises employee salary by percent
+     * @param byPercent percent to increase salary
+     */
     public void raiseSalary(double byPercent) {
         salary *= (1 + byPercent / 100);
     }
